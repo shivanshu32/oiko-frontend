@@ -2,11 +2,6 @@ import React, { useState } from "react";
 
 export default function Index() {
     
-    
-
-    
-
-    
 
    
 
@@ -18,7 +13,7 @@ export default function Index() {
                         <div className="pt-4  mx-4 md:mx-6 ">
                             <div className="flex items-center justify-between border-b border-gray-200 dark:border-gray-700 pb-4 md:w-full" >
                                 <div className="md:hidden flex justify-left ">
-                                    <button onClick={() => openMenu()} aria-label="open menu" className="text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-gray-800 rounded">
+                                    <button aria-label="open menu" className="text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-gray-800 rounded">
                                         <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M20 6H4" stroke="#1F2937" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                             <path d="M14 12H4" stroke="#1F2937" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -159,7 +154,7 @@ export default function Index() {
                                         <img src="/assets/images/oikologo.png" alt="logoimage" />
                                         </div>
                                     </div>
-                                    <button aria-label="close menu" onClick={() => closeMenu()} className="focus:outline-none focus:ring-2 focus:ring-gray-800 text-gray-800 dark:text-white">
+                                    <button aria-label="close menu"  className="focus:outline-none focus:ring-2 focus:ring-gray-800 text-gray-800 dark:text-white">
                                         <svg className="fill-stroke" width={20} height={20} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M15 5L5 15" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
                                             <path d="M5 5L15 15" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
