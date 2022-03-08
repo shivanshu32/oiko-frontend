@@ -1,27 +1,12 @@
 import React, { useState } from "react";
 
 export default function Index() {
-    const sliderStyle1 = {
-        transform: "translateX(120%)",
-    };
-
-    const sliderStyle2 = {
-        transform: "translateX(0)",
-    };
-
-    const [show, setshow] = useState(false);
+    
     
 
-    const openMenu = () => {
-        setSlider(true);
-        setshow(true);
-    };
+    
 
-    const closeMenu = () => {
-        setshow(false);
-        setSlider(false);
-        setSlidetStyle(sliderStyle1);
-    };
+    
 
    
 
