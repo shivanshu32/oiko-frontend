@@ -139,7 +139,7 @@ export default function Index() {
                                 </div>
                             </div>
                         </div>
-                        <div id="mobile-menu" className={`ease-in-out transition duration-200 dark:bg-gray-900 md:hidden absolute inset-0 z-10 flex flex-col w-full h-screen bg-white py-4 ${show ? "" : "hidden"}`}>
+                        <div id="mobile-menu" className={`ease-in-out transition duration-200 dark:bg-gray-900 md:hidden absolute inset-0 z-10 flex flex-col w-full h-screen bg-white py-4 }`}>
                             <div className="w-full border-b border-gray-200 ">
                                 <div className=" flex items-center justify-between  pb-5 mx-4">
                                     <div />
