@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navigation from './components/navigation'
 
@@ -57,7 +56,7 @@ function App() {
       <div className="flex w-full md:w-auto lg:w-auto flex-col items-center md:ml-8 mt-6 md:mt-0 lg:mt-0">
         <div className="w-full md:w-auto lg:w-auto border border-gray-800">
           <img className="w-full md:block hidden md:w-auto lg:w-auto" src="/assets/images/product/2.png" alt="shoes" />
-          <img className="w-full md:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/unsplash_v13tnV6D9lw%20%282%29.png" />
+          <img className="w-full md:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/unsplash_v13tnV6D9lw%20%282%29.png" alt="shoes" />
         </div>
         <p className="mt-4 text-sm lg:text-base font-medium text-gray-800">Black Leather Jacket</p>
         <p className="text-xs leading-3 line-through text-red-700">$800.00</p>
@@ -228,7 +227,7 @@ function App() {
             </div>
             <div className="flex flex-col py-12 items-center justify-center">
             <div className="hidden lg:block">
-                                    <img src="/assets/images/oikologo.png" className="w-42 h-8" />
+                                    <img src="/assets/images/oikologo.png" className="w-42 h-8" alt="logoimage" />
             </div>
                 <p className="text-sm text-center text-white pt-3">© 2022 OikoExpress All rights reserved.</p>
             </div>

@@ -10,8 +10,7 @@ export default function Index() {
     };
 
     const [show, setshow] = useState(false);
-    const [sliderStyle, setSlidetStyle] = useState(sliderStyle1);
-    const [slider, setSlider] = useState(true);
+    
 
     const openMenu = () => {
         setSlider(true);
@@ -24,17 +23,7 @@ export default function Index() {
         setSlidetStyle(sliderStyle1);
     };
 
-    const showSlider = (flag) => {
-        let text = document.getElementById("text");
-        if (flag) {
-            setSlider(false);
-            setSlidetStyle(sliderStyle2);
-            text.innerHTML = flag;
-        } else {
-            setSlider(true);
-            setSlidetStyle(sliderStyle1);
-        }
-    };
+   
 
     return (
         <div className="">
@@ -54,13 +43,13 @@ export default function Index() {
                                 </div>
                                 <div className=" cursor-pointer">
                                     <div className="hidden lg:block">
-                                    <img src="/assets/images/oikologo.png" className="w-42 h-8" />
+                                    <img src="/assets/images/oikologo.png" className="w-42 h-8" alt="logoimage" />
                                     </div>
                                     <div className="hidden md:block lg:hidden">
-                                    <img src="/assets/images/oikologo.png" />
+                                    <img src="/assets/images/oikologo.png" alt="logoimage" />
                                     </div>
                                     <div className="md:hidden">
-                                    <img src="/assets/images/oikologo.png" />
+                                    <img src="/assets/images/oikologo.png" alt="logoimage"/>
                                     </div>
                                 </div>
 
@@ -92,7 +81,7 @@ export default function Index() {
                                 <div className="hidden md:block">
                                     <ul className="flex items-center space-x-6">
                                         <li>
-                                            <a href="javascript:void(0)" className="text-gray-800 dark:text-white text-white flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
+                                            <a href="/" className="text-gray-800 dark:text-white text-white flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
                                                 <div>
                                                     <svg className="fill-stroke" width={18} height={20} viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M17 19V17C17 15.9391 16.5786 14.9217 15.8284 14.1716C15.0783 13.4214 14.0609 13 13 13H5C3.93913 13 2.92172 13.4214 2.17157 14.1716C1.42143 14.9217 1 15.9391 1 17V19" stroke="currentColor" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
@@ -103,7 +92,7 @@ export default function Index() {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="javascript:void(0)" className="text-gray-800 dark:text-white text-white flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
+                                            <a href="/" className="text-gray-800 dark:text-white text-white flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
                                                 <div>
                                                     <svg className="fill-stroke" width={22} height={20} viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path
@@ -119,7 +108,7 @@ export default function Index() {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="javascript:void(0)" className="text-gray-800 dark:text-white text-white flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
+                                            <a href="/" className="text-gray-800 dark:text-white text-white flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
                                                 <div>
                                                     <svg className="fill-stroke" width={20} height={22} viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M4 1L1 5V19C1 19.5304 1.21071 20.0391 1.58579 20.4142C1.96086 20.7893 2.46957 21 3 21H17C17.5304 21 18.0391 20.7893 18.4142 20.4142C18.7893 20.0391 19 19.5304 19 19V5L16 1H4Z" stroke="currentColor" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
@@ -137,22 +126,22 @@ export default function Index() {
                                 <div className="hidden md:block px-4">
                                     <ul className="flex items-center space-x-6">
                                         <li className="h-full">
-                                            <a href="javascript:void(0)" className="pt-4  md:pb-6 border-transparent text-white border-b-4 h-full focus:border-gray-800  focus:outline-none dark:text-white text-base text-right text-white  ">
+                                            <a href="/" className="pt-4  md:pb-6 border-transparent text-white border-b-4 h-full focus:border-gray-800  focus:outline-none dark:text-white text-base text-right text-white  ">
                                                 Deals
                                             </a>
                                         </li>
                                         <li className="h-full">
-                                            <a href="javascript:void(0)" className="pt-4 md:pb-6 border-transparent border-b-4 h-full focus:border-gray-800 focus:outline-none dark:text-white text-base text-right  text-white ">
+                                            <a href="/" className="pt-4 md:pb-6 border-transparent border-b-4 h-full focus:border-gray-800 focus:outline-none dark:text-white text-base text-right  text-white ">
                                                 OFC Partner
                                             </a>
                                         </li>
                                         <li className="h-full">
-                                            <a href="javascript:void(0)" className="pt-4 md:pb-6 border-transparent border-b-4 h-full focus:border-gray-800 focus:outline-none dark:text-white text-base text-right text-white ">
+                                            <a href="/" className="pt-4 md:pb-6 border-transparent border-b-4 h-full focus:border-gray-800 focus:outline-none dark:text-white text-base text-right text-white ">
                                                 Sell on Oiko
                                             </a>
                                         </li>
                                         <li className="h-full">
-                                            <a href="javascript:void(0)" className="pt-4 md:pb-6 border-transparent border-b-4 h-full focus:border-gray-800 focus:outline-none dark:text-white text-base text-right text-white  ">
+                                            <a href="/" className="pt-4 md:pb-6 border-transparent border-b-4 h-full focus:border-gray-800 focus:outline-none dark:text-white text-base text-right text-white  ">
                                                 Metro
                                             </a>
                                         </li>
@@ -176,13 +165,13 @@ export default function Index() {
                                     <div />
                                     <div className=" cursor-pointer">
                                         <div className="hidden lg:block">
-                                            <img src="/assets/images/oikologo.png" />
+                                            <img src="/assets/images/oikologo.png" alt="logoimage"/>
                                         </div>
                                         <div className="hidden md:block lg:hidden">
-                                        <img src="/assets/images/oikologo.png" />
+                                        <img src="/assets/images/oikologo.png" alt="logoimage"/>
                                         </div>
                                         <div className="md:hidden">
-                                        <img src="/assets/images/oikologo.png" />
+                                        <img src="/assets/images/oikologo.png" alt="logoimage" />
                                         </div>
                                     </div>
                                     <button aria-label="close menu" onClick={() => closeMenu()} className="focus:outline-none focus:ring-2 focus:ring-gray-800 text-gray-800 dark:text-white">
